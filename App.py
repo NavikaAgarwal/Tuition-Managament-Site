@@ -1,7 +1,7 @@
-#Tuition Management App
-#Author:-Amit Verma
-#Email:- root.avanti@gmail.com
-#Date=23-11-2020
+#Tuition Management Website
+#Author:- Navika Agarwal
+#Email:- navikaag20@gmail.com
+#Date:- 27-01-2024
 
 try:
     import tkinter as tk
@@ -94,40 +94,40 @@ def main():
     w=200
     def h1():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Am|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='N',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h2)
 
     def h2():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Ami|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Na',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h3)
     def h3():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Nav|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h4)
     def h4():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit |',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navi',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h5)
     def h5():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit V|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navik|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h6)
     def h6():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit Ve|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navika|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h7)
     def h7():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit Ver|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navika Ag|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h8)
     def h8():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit Verm|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navika Agar|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,h9)
     def h9():
         canvas.delete("avc")
-        canvas.create_text(x,y,text='Amit Verma|',tags="avc",font=('Arial',font_size),width=w,fill="red")
+        canvas.create_text(x,y,text='Navika Agarwal|',tags="avc",font=('Arial',font_size),width=w,fill="red")
         a.after(time,start2)
 
 
