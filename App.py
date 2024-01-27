@@ -145,7 +145,7 @@ def main():
     ab_but=ttk.Button(canvas,text="Me",command=about_win)
     ab_but.place(x=640,y=460)
 
-abim=Image.open('images/About Me.png')
+abim=Image.open('images/About Me.jpeg')
 
 abimg=ImageTk.PhotoImage(abim)
 def about_win():
