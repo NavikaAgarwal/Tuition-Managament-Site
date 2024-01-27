@@ -4,18 +4,6 @@ Tuition Management app in Python to manage student's records easily. It helps to
 
 ## Screenshots
 
-### Home Page
-<p align="center">
-  <img  src="/Project Screenshots/Screenshot (77).png" alt="Tuition Management System">
-</p>
-<br>
-
-### About Developer
-<p align="center">
-  <img src="/Project Screenshots/Screenshot (78).png" alt="Amit Verma">
-</p>
-<br>
-
 ### Teacher Register
 <p align="center">
   <img src="/Project Screenshots/Screenshot (56).png" alt="Tuition Management System">
