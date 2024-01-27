@@ -1,7 +1,7 @@
-#Tuition Management App
-#Author:-Amit Verma
-#Email:- root.avanti@gmail.com
-#Date=23-11-2020
+#Tuition Management Website
+#Author:- Navika Agarwal
+#Email:- navikaag20@gmail.com
+#Date:- 27-01-2024
 
 try:
     import tkinter as tk
@@ -1465,14 +1465,10 @@ class MyApplication(tk.Tk):
 
                 container.grid(row=1,column=1,padx=10)
 
-
                 canvas.grid(row=2,column=0)
                 
                 scrollbar.grid(row=2,column=1,sticky=tk.NS)
 
-
-
-            
                 del_canvas=tk.Canvas(fs,width=290)
                 del_canvas.grid(row=1,column=2)
 
@@ -1494,23 +1490,12 @@ class MyApplication(tk.Tk):
                     rec=c.fetchone()
                     total=rec[0]
                
-
-                    
                     return total
                     c.close()
                     conn.close()
 
-
-                
-                
                 global total_fees_paid
                 total_fees_paid=total_paid()
-                
-
-               
-                
-                
-                
                 
                 total=ttk.Label(df,text="Total Paid",font=("TkDefaultFont", 14))
                 total.grid(row=5,column=0)
@@ -1534,19 +1519,7 @@ class MyApplication(tk.Tk):
         else:
             tk.messagebox.showerror("Error!","Roll No can't be empty!")
 
-            
-            
-
-    
-           
-
 #if __name__ == '__main__':    
 app = MyApplication()
     
 app.mainloop()
-    
-
-
-
-
-
